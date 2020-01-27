@@ -9,7 +9,9 @@ and introduces the task for this lab.<br>
 http://heinzcollege.mediasite.com/Mediasite/Play/21d1939d54f04444b042e45fc923742e1d
 
 <br><br>
-:warning:<b> If you have reached this point, and you have not watched the video, go back.</b><br>
+:warning:<b> If you have reached this point, and you have not watched the video, go back.</b>
+
+<br><br>
 
 ##### EchoServerTCP.java, and all the client and server files can be found at:
 http://www.andrew.cmu.edu/course/95-702/examples/sockets/<br><br>
