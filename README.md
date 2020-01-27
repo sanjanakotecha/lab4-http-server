@@ -9,8 +9,7 @@ and introduces the task for this lab.<br>
 http://heinzcollege.mediasite.com/Mediasite/Play/21d1939d54f04444b042e45fc923742e1d
 
 <br><br>
-
-:warning:<b> If you have reached this point, and you have not watched the video, go back.</b>
+:warning:<b> If you have reached this point, and you have not watched the video, go back.</b><br>
 
 ##### EchoServerTCP.java, and all the client and server files can be found at:
 http://www.andrew.cmu.edu/course/95-702/examples/sockets/<br><br>
@@ -135,13 +134,16 @@ Create a socket
           "transfer-encoding chunked".  We are cheating and just closing the socket.
           This will indicate to the browser that the response has been completed.
 <br>
+
 ##### TEST HTML FILES:
   * You must create your own test HTML file.  It can be as simple or complex
       as you like.  Use an existing html file if you have one.
-<br>
+
+
 ##### Extra challenges (not required):
   * Return 405 Method Not Allowed if you receive an HTTP method you don't handle
-<br>
+
+
 ##### Demonstrate your solution to a TA for credit.
   * Show the project, code, and execution in IntelliJ
   * You should demonstrate 200 OK and 404 File Not Found
