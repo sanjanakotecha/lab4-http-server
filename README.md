@@ -12,8 +12,7 @@ http://heinzcollege.mediasite.com/Mediasite/Play/21d1939d54f04444b042e45fc923742
 :warning:<b> If you have reached this point, and you have not watched the video, go back.</b>
 
 <br><br>
-
-##### EchoServerTCP.java, and all the client and server files can be found at:
+EchoServerTCP.java, and all the client and server files can be found at:<br>
 http://www.andrew.cmu.edu/course/95-702/examples/sockets/<br><br>
 For this lab you are to build your own web server.  Just like Apache, IIS,
 or nginx, you are to build a web server that can take HTTP requests from a
