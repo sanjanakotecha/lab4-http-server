@@ -98,15 +98,15 @@ Create a socket
     * You should review the Server Side Programming slides from week 3 to review
         the format of simple HTTP requests.
               E.g. In Chrome, here is an HTTP request of http://localhost:3000/test.html<br>
-                  GET /test.html HTTP/1.1<br>
-                  Host: localhost:3000<br>
-                  Connection: keep-alive<br>
-                  Cache-Control: max-age=0<br>
-                  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8<br>
-                  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2)  ...<br>
-                  Accept-Encoding: gzip,deflate,sdch<br>
-                  Accept-Language: en-US,en;q=0.8<br>
-                  Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;GET /test.html HTTP/1.1<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;Host: localhost:3000<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;Connection: keep-alive<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;Cache-Control: max-age=0<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2)  ...<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;Accept-Encoding: gzip,deflate,sdch<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;Accept-Language: en-US,en;q=0.8<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3<br>
     * A blank line delimits the end of the HTTP request
     * So your HTTP Server program must read the first line from the TCP socket,
         parse out the <resource identifier> (e.g. /test.html) and then try to read
